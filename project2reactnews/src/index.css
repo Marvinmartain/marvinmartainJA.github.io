@@ -40,7 +40,7 @@ code {
   width: 100%;
 }
 
-.NewsDisplay > h1 {
+.NewsDisplay > div h1 {
   font-size: 24px;
   font-weight: bold;
   margin-top: 10px;
@@ -52,4 +52,22 @@ code {
   line-height: 1.5;
   margin-top: 10px;
   text-align: justify;
+}
+
+NewsDisplay > div a {
+  align-self: center;
+  background-color: #F44336;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: auto;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.NewsDisplay > div a:hover {
+  background-color: #e53935;
 }
