@@ -18,7 +18,7 @@ function Form({ handleSearch }) {
           value={searchTerm}
           onChange={(event) => setSearchTerm(event.target.value)}
         />
-       
+        <button type="submit">Search</button>
       </form>
     );
   }
