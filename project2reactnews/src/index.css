@@ -32,3 +32,17 @@ code {
   flex-direction: column;
   padding: 20px;
 }
+
+.NewsDisplay > div img {
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.NewsDisplay > h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
