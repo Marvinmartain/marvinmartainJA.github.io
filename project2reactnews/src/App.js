@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import NewsDisplay from "./components/NewsDisplay";
 import Form from "./components/Form";
-import "./App.css";
+
 import "./index.css";
 
 function App() {
