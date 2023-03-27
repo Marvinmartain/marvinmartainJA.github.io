@@ -40,9 +40,16 @@ code {
   width: 100%;
 }
 
-.NewsDisplay > h1 {
+.div h1 {
   font-size: 24px;
   font-weight: bold;
   margin-top: 10px;
   text-align: center;
+}
+
+.div p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+  text-align: justify;
 }
