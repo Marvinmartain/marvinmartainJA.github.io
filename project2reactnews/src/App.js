@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import NewsDisplay from "./components/NewsDisplay";
 import Form from "./components/Form";
 import "./App.css";
+import "./NewsDisplay.css";
 
 function App() {
   const apiKey = "f5d44014fa3d4d1786244e80ac21cc48";
