@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-/* .app {
+.app {
   display: flex;
   justify-content: center;
 }
@@ -52,4 +52,4 @@ code {
   line-height: 1.5;
   margin-top: 10px;
   text-align: justify;
-} */
+}
