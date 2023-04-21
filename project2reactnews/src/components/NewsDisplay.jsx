@@ -3,9 +3,6 @@ import React, { useState } from 'react';
 function NewsDisplay({ articles }) {
     const loaded = () => {
       return articles.map((article) => (
-        <div className='new-display'>
-          {articles ? loaded() : loading()}
-        </div>
         <div key={article.url}>
           <h1>{article.title}</h1>
           <img src={article.urlToImage} alt={article.title} />
